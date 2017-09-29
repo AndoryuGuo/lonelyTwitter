@@ -32,7 +32,6 @@ public abstract class Tweet implements Tweetable{
     /**
      * Constructs Tweet objects
      *
-     * @args message
      * @param message tweet message
      * @param date tweet date
      */

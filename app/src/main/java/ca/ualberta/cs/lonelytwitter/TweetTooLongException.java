@@ -7,5 +7,14 @@
 
 package ca.ualberta.cs.lonelytwitter;
 
+/**
+ * represents a tweet too long could rise an exception
+ *
+ * @author Jiahao Guo
+ * @see Exception
+ * @version 1.0
+ * @since 1.0
+ */
+
 public class TweetTooLongException extends Exception {
 }

@@ -9,6 +9,13 @@ package ca.ualberta.cs.lonelytwitter;
 
 import java.util.Date;
 
+/**
+ * represents a tweet with a date that sending by user
+ *
+ * @author Jiahao Guo
+ * @version 1.0
+ * @since 1.0
+ */
 public interface Tweetable {
     public String getMessage();
     public Date getDate();

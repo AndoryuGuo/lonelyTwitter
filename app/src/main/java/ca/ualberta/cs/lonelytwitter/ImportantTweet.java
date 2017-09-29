@@ -9,10 +9,25 @@ package ca.ualberta.cs.lonelytwitter;
 
 import java.util.Date;
 
+/**
+ * Represents an ImportantTweet
+ *
+ * @author Jiahao Guo
+ * @version 1.0
+ * @see Tweet
+ * @since 1.0
+ */
 public class ImportantTweet extends Tweet {
     public ImportantTweet(String message){
         super(message);
     }
+
+    /**
+     * Constructs Important tweet objects
+     *
+     * @param message
+     * @param date
+     */
     public ImportantTweet(String message, Date date){
         super(message, date);
     }
